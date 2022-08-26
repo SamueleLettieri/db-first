@@ -1,0 +1,19 @@
+Struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario.
+
+Id - intero - MEDIUMINT - PRIMARY_KEY - AUTO_INCREMENT
+Marca - stringa - VARCHAR(15) - NOTNULL 
+Modello - stringa - VARCHAR(50) - NOTNULL 
+Accessori - stringa - TEXT - NULL 
+km_percorsi - numero - INT - NOTNULL - DEFAULT(0)
+Anni_di_utilizzo - date - YEAR - NOTNULL
+Prezzo - numeri - DOUBLE(8,2) - NOTNULL
+Cavalli - numeri - MEDIUMINT - NOTNULL
+Cilindrata - numeri - MEDIUMINT - NOTNULL
+Condizioni_dell'auto - stringa - TEXT - NULL 
+Data_d'immatricolazioni - date - YEAR - NOTNULL
+Carburante - stringa - VARCHAR(20) - NOTNULL 
+Consumo_carburante - stringa - VARCHAR(255) - NULL 
+Livello_d'inquinamento - stringa - VARCHAR(255) - NULL
+Sconto - numeri - FLOAT(7,2) - NULL
+Disponibile numeri - TINYINT - DEFAULT(0) - NULL
+Nazionalita - stringa - VARCHAR(20) - null
